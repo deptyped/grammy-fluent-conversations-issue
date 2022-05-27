@@ -1,0 +1,25 @@
+{
+  "name": "grammy-fluent-conversations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"npm run start\"",
+    "start": "node dist/bot.js"
+  },
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@grammyjs/conversations": "^0.6.1",
+    "@grammyjs/fluent": "^1.0.3",
+    "@moebius/fluent": "^1.1.0",
+    "@satont/grammy-redis-storage": "^1.2.0",
+    "grammy": "^1.8.3",
+    "ioredis": "^5.0.5"
+  },
+  "devDependencies": {
+    "tsc-watch": "^5.0.3",
+    "typescript": "^4.7.2"
+  }
+}
